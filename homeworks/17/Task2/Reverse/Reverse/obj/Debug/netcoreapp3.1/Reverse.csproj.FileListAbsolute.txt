@@ -1,0 +1,12 @@
+Q:\Reverse\Reverse\bin\Debug\netcoreapp3.1\Reverse.exe
+Q:\Reverse\Reverse\bin\Debug\netcoreapp3.1\Reverse.deps.json
+Q:\Reverse\Reverse\bin\Debug\netcoreapp3.1\Reverse.runtimeconfig.json
+Q:\Reverse\Reverse\bin\Debug\netcoreapp3.1\Reverse.runtimeconfig.dev.json
+Q:\Reverse\Reverse\bin\Debug\netcoreapp3.1\Reverse.dll
+Q:\Reverse\Reverse\bin\Debug\netcoreapp3.1\Reverse.pdb
+Q:\Reverse\Reverse\obj\Debug\netcoreapp3.1\Reverse.AssemblyInfoInputs.cache
+Q:\Reverse\Reverse\obj\Debug\netcoreapp3.1\Reverse.AssemblyInfo.cs
+Q:\Reverse\Reverse\obj\Debug\netcoreapp3.1\Reverse.csproj.CoreCompileInputs.cache
+Q:\Reverse\Reverse\obj\Debug\netcoreapp3.1\Reverse.dll
+Q:\Reverse\Reverse\obj\Debug\netcoreapp3.1\Reverse.pdb
+Q:\Reverse\Reverse\obj\Debug\netcoreapp3.1\Reverse.genruntimeconfig.cache
