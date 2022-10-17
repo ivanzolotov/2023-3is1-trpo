@@ -1,0 +1,120 @@
+body {
+	background-image: url("minecraft-style-pattern.png");
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	margin: 0px;
+
+	
+}
+
+.menu {
+  position: fixed;
+  background-color: green;
+  width: 100%;
+  height: 100px;
+	
+}
+
+.qwe {
+	text-align:center;
+	color: black;
+	margin-bottom: 10px;
+	
+}
+
+.info {
+	width: 700px;
+	height: 450px;
+	margin: auto;
+	background-image: url("Abstract-background-white-12.jpg");
+	
+}
+
+.info1 {
+	width: 700px;
+	height: 450px;
+	margin: auto;
+	background-image: url("Abstract-background-white-12.jpg");
+	
+}
+
+.space {
+	height: 50px;
+	
+}
+.space1 {
+	height: 130px;
+	
+}
+
+.one {
+	text-align: center;
+	
+}
+
+.two {
+	text-align: center;
+	
+}
+
+.name {
+	text-align: center;
+	
+}
+
+.description {
+	text-align: center;
+	
+}
+
+.info3 {
+	width: 900px;
+	height: 1600px;
+	margin: auto;
+	background-image: url("Abstract-background-white-12.jpg");
+	
+}
+
+.text {
+	padding-right: 50px;
+	padding-left: 50px;
+	
+}
+
+.text1 {
+	padding-left: 50px;
+}
+
+.text2 {
+	padding-left: 50px;
+	margin-bottom: 0%;
+}
+
+.images {
+	text-align: center;
+}
+
+.scale:hover {
+	transform: scale(1.2);
+	
+}
+
+.video {
+	text-align: center;
+}
+
+.download {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.home {
+	text-decoration: none;
+	
+}
+
+.bar {
+	text-align: center;
+}
