@@ -1,0 +1,111 @@
+ body {
+	 background-color: #87CEEB;
+	 margin: 0;
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+ 
+ li {
+	 list-style: none;
+ }
+ 
+.navigation {
+	display: flex;
+	flex-direction: row;
+	background-color: #008080;
+	padding: 0;
+}
+
+
+.login {
+	height: 100%;
+	margin-right: 40px;
+	padding: 20px;
+ 	text-align: center;
+	background-color: #008080;
+	color: white;
+	border: none;
+}
+
+.login:hover {
+	opacity: 70%;
+} 
+
+ .head li {
+	 padding: 10px;
+	 margin: 10px 30px;
+
+ }
+ 
+  .main {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-around;
+
+ }
+ 
+  .left {
+	 display: flex;
+	 flex-direction: column;
+
+ }
+ 
+h3 {
+	text-align: center;
+}
+
+ .description {
+	 height: 400px;
+	 width: 350px;
+	 margin: 0;
+	 text-align: left;
+	 background-color: gray;
+ }
+ 
+ .right {
+	 display: flex;
+	 flex-direction: column;
+	 
+ }
+ 
+ .interface {
+	 height: 600px;
+	 width: 500px;
+	 background-color: gray;
+	 margin: 20px;
+	 text-align: center;
+ }
+ 
+ .download {
+	 padding: 35px;
+ }
+
+ .download {
+ 	display: flex;
+ 	width: 80px;
+ 	margin: 20px;
+ 	padding: 15px 40px;
+ 	text-align: center;
+ 	align-items: center;
+	background-color: gray;
+	color: white;
+	border-radius: 4px;
+ }
+ 
+ .foot,
+ .head {
+	 display: flex;
+	 flex-direction: row;
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+	 justify-content: center;
+	 align-items: center;
+
+ }
+ 
+ .foot li {
+	 padding: 10px;
+ }
