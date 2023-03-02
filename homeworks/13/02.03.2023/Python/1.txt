@@ -1,0 +1,7 @@
+for i in range(100):
+    if i % 3 == 0:
+        print('A')
+    elif i // 5 == 0:
+        print('B')
+    elif i // 5 and i // 3:
+        print('AB')

@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static int power(int number, int degree) 
+        {
+            for (int i = 0; i < degree-1; i++)
+                number += number;
+            return number;
+        }
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine(power(2,5));
+            }
+            catch
+            {
+                Console.WriteLine("Error!");
+            }
+        }
+    }
+}

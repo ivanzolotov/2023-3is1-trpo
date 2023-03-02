@@ -1,0 +1,9 @@
+def power(number, degree):
+    for i in range(degree-1):
+        number += number
+    return number
+
+try:
+    print(power(4,2))
+except:
+    print('Check the data!')

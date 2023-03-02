@@ -1,0 +1,26 @@
+using System;
+
+namespace scratch2
+{
+    class Program
+    {
+        static int sumOfNumbers(int[] arr)
+        {
+            int res = 0;
+            foreach (int i in arr)
+                res += i;
+            return res;
+        }
+        static void Main(string[] args)
+        {
+            try
+            {
+                int[] arr = { 1, 2, 3, 4 };
+                Console.WriteLine(sumOfNumbers(arr));
+            } catch
+            {
+                Console.WriteLine("Error!");
+            }
+        }
+    }
+}
