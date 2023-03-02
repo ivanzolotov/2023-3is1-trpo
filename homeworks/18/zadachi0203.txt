@@ -1,0 +1,64 @@
+1
+
+static void Main()
+{
+    Console.WriteLine("n = ");
+    int n = Convert.ToInt32(Console.ReadLine());
+    int[] a = new int[n];
+    for (int i = 0; i < n; i++)
+    {
+        Console.WriteLine($"A[{i+1}]");
+        a[i] = Convert.ToInt32(Console.ReadLine());
+    }
+}
+Main();
+
+2
+
+def sum_of_list(list):
+    list_mod=list.split(" ")
+    sum = 0
+    for i in list_mod:
+        sum += int(i)
+    print(sum)
+list=input()
+sum_of_list(list)
+
+3
+
+def reverse_word_text(varibale):
+    res=''
+    for i in range (len(varibale)-1,-1, -1):
+        res+=varibale[i]
+    return res
+n=reverse_word_text(input())
+print(n)
+
+4
+
+def vivod_elementov_naa(list):
+    for i in list.split(" "):
+        if i[0]=="a":
+            print(i)
+list1=input()
+vivod_elementov_naa(list1)
+
+5
+
+def vozv_v_stepen(a,b):
+    print(a**b)
+a=input()
+b=input()
+vozv_v_stepen(a,b)
+
+6
+
+def massiv_elementi_b10m100(list):
+    list_mod=list.split(" ")
+    list2=[]
+    for i in list_mod:
+        if (int(i)>10) and (int(i)<100):
+            list2.append(i)
+    print(list2)
+list1=input()
+massiv_elementi_b10m100(list1)
