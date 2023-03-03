@@ -1,0 +1,10 @@
+def sum_of_numbers(arr):
+    res = 0
+    for i in arr:
+        res += i
+    return res
+
+try:
+    print(sum_of_numbers([1,2,3,4]))
+except:
+    print('Check the data!')

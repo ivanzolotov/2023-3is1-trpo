@@ -1,0 +1,7 @@
+def choose_string(string):
+    return [new_string for new_string in string if new_string[0].lower() == 'a']
+
+try:
+    print(choose_string(['Abd', 'cda', 'rdf']))
+except:
+    print('Check the data!')

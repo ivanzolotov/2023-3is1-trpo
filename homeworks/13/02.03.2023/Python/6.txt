@@ -1,0 +1,7 @@
+def sort(arr):
+    return [i for i in arr if i > 10 and i < 100]
+
+try:
+    print(sort([10, 12, 123]))
+except:
+    print('Check the data!')

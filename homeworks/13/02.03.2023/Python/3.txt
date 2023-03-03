@@ -1,0 +1,7 @@
+def reverse(string):
+    return string[::-1]
+
+try:
+    print(reverse('hello'))
+except:
+    print('Check the data!')
